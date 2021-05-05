@@ -1,0 +1,63 @@
+html, body {
+    background-color: black;
+}
+
+.pad-buttons {
+    margin: auto;
+    width: fit-content;
+    padding-top: 50px;
+    min-width: max-content;
+}
+
+.pad-buttons div {
+    display: inline;
+}
+
+.drumpad button {
+    padding: 75px;
+    margin: 6px 4px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#beats button {
+    background: linear-gradient(0deg, #175af4 0%, #6faeff 100%);
+    border-color: #356ef3;
+    border-top-color: #b1c9ff;
+    border-bottom-color: #173986;
+}
+
+#notes button {
+    background: linear-gradient(0deg, #e31852 0%, #ff779c 100%);
+    border-color: #eb4b78;
+    border-top-color: #ffacc3;
+    border-bottom-color: #850a2d;
+}
+
+#laughs button {
+    background: linear-gradient(0deg, #f68a1d 0%, #ffdc73 100%);
+    border-color: #f3a354;
+    border-top-color: #ffefcc;
+    border-bottom-color: #a74b00;
+}
+
+.pad-buttons img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+div .menu {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.menu img {
+    display: inline-block;
+}
+
+#record {
+    width: 104px;
+    padding-bottom: 20px;
+}

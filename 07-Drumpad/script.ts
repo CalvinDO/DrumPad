@@ -40,8 +40,6 @@ namespace DrumPad {
         //---->
         //---->
 
-
-        console.log(storedInstrumentsTimes)
     });
 
 
@@ -133,7 +131,6 @@ namespace DrumPad {
 
 
         playing = true;
-        console.log(storedInstrumentsTimes);
 
         timeSincePlay = 0;
     }
